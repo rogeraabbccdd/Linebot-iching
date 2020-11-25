@@ -1,0 +1,177 @@
+{
+  "type": "flex",
+  "altText": "",
+  "contents": {
+    "type": "carousel",
+    "contents": [{
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "卜卦結果",
+            "weight": "bold",
+            "color": "#1DB446",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "",
+            "weight": "bold",
+            "size": "xxl",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "",
+            "color": "#999999",
+            "wrap": true
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "xxl",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "卦辭",
+                "size": "xl",
+                "weight": "bold",
+                "color": "#007bff"
+              },
+              {
+                "type": "text",
+                "text": "",
+                "wrap": true
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "text": "文言釋義",
+                    "size": "sm",
+                    "color": "#999999",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "text": "白話釋義",
+                    "size": "sm",
+                    "color": "#999999",
+                    "flex": 0
+                  }
+                ]
+              },
+              {
+                "type": "separator",
+                "margin": "xxl"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "xxl",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "爻辭",
+                "size": "xl",
+                "weight": "bold",
+                "color": "#007bff"
+              },
+              {
+                "type": "text",
+                "text": "",
+                "wrap": true
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "text": "文言釋義",
+                    "size": "sm",
+                    "color": "#999999",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "text": "白話釋義",
+                    "size": "sm",
+                    "color": "#999999",
+                    "flex": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "易學網",
+              "uri": "https://www.eee-learning.com/book/neweee"
+            }
+          },
+          {
+            "type": "spacer",
+            "size": "sm"
+          }
+        ],
+        "flex": 0
+      },
+      "styles": {
+        "footer": {
+          "separator": true
+        }
+      }
+    }]
+  }
+}
